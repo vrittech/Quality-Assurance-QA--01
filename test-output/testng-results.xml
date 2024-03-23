@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
-=======
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
->>>>>>> origin/main
   <reporter-output>
     <line>
       <![CDATA[====BROWSER SESSION STARTED====]]>
@@ -12,67 +8,18 @@
       <![CDATA[===STARTING WITH EDGE BROWSER===]]>
     </line>
     <line>
-<<<<<<< HEAD
-      <![CDATA[==Login Status Text shown and is Verified!]]>
-    </line>
-    <line>
-      <![CDATA[==BROWSER SESSION END==]]>
-    </line>
-    <line>
-      <![CDATA[====BROWSER SESSION STARTED====]]>
-    </line>
-    <line>
-      <![CDATA[===STARTING WITH EDGE BROWSER===]]>
-    </line>
-    <line>
-      <![CDATA[==Greeting Text is verified!]]>
-=======
       <![CDATA[==Login Test case Verified==]]>
->>>>>>> origin/main
     </line>
     <line>
       <![CDATA[==BROWSER SESSION END==]]>
     </line>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2024-03-23T13:41:46 NPT" name="Default suite" finished-at="2024-03-23T13:42:05 NPT" duration-ms="18996">
+  <suite started-at="2024-03-23T14:03:09 NPT" name="Default suite" finished-at="2024-03-23T14:03:15 NPT" duration-ms="6382">
     <groups>
     </groups>
-    <test started-at="2024-03-23T13:41:46 NPT" name="Default test" finished-at="2024-03-23T13:42:05 NPT" duration-ms="18996">
-      <class name="myPrj.DashboardTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:46 NPT" name="setUp" finished-at="2024-03-23T13:41:50 NPT" duration-ms="4360" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[====BROWSER SESSION STARTED====]]>
-            </line>
-            <line>
-              <![CDATA[===STARTING WITH EDGE BROWSER===]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginStatusText()[pri:20, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:50 NPT" name="verifyLoginStatusText" finished-at="2024-03-23T13:41:52 NPT" duration-ms="2191" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==Login Status Text shown and is Verified!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLoginStatusText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:52 NPT" name="tearDown" finished-at="2024-03-23T13:41:59 NPT" duration-ms="6606" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==BROWSER SESSION END==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:59 NPT" name="setUp" finished-at="2024-03-23T13:42:02 NPT" duration-ms="3438" status="PASS">
-=======
-  <suite started-at="2024-03-21T21:32:01 NPT" name="Default suite" finished-at="2024-03-21T21:32:15 NPT" duration-ms="13312">
-    <groups>
-    </groups>
-    <test started-at="2024-03-21T21:32:01 NPT" name="Default test" finished-at="2024-03-21T21:32:15 NPT" duration-ms="13312">
+    <test started-at="2024-03-23T14:03:09 NPT" name="Default test" finished-at="2024-03-23T14:03:15 NPT" duration-ms="6382">
       <class name="myPrj.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:myPrj.LoginTest@3ba987b8]" started-at="2024-03-21T21:32:02 NPT" name="setUp" finished-at="2024-03-21T21:32:13 NPT" duration-ms="11035" status="PASS">
->>>>>>> origin/main
+        <test-method is-config="true" signature="setUp()[pri:0, instance:myPrj.LoginTest@4b29d1d2]" started-at="2024-03-23T14:03:09 NPT" name="setUp" finished-at="2024-03-23T14:03:13 NPT" duration-ms="4377" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====BROWSER SESSION STARTED====]]>
@@ -82,36 +29,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-<<<<<<< HEAD
-        <test-method signature="verifyGreetingText()[pri:30, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:42:02 NPT" name="verifyGreetingText" finished-at="2024-03-23T13:42:05 NPT" duration-ms="2207" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==Greeting Text is verified!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyGreetingText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:42:05 NPT" name="tearDown" finished-at="2024-03-23T13:42:05 NPT" duration-ms="138" status="PASS">
-=======
-        <test-method signature="loginValid()[pri:0, instance:myPrj.LoginTest@3ba987b8]" started-at="2024-03-21T21:32:13 NPT" name="loginValid" description="This testcase verifies successful Login" finished-at="2024-03-21T21:32:15 NPT" duration-ms="2017" status="PASS">
+        <test-method signature="loginValid()[pri:1, instance:myPrj.LoginTest@4b29d1d2]" started-at="2024-03-23T14:03:13 NPT" name="loginValid" description="This testcase verifies successful Login" finished-at="2024-03-23T14:03:15 NPT" duration-ms="1788" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==Login Test case Verified==]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginValid -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:myPrj.LoginTest@3ba987b8]" started-at="2024-03-21T21:32:15 NPT" name="tearDown" finished-at="2024-03-21T21:32:15 NPT" duration-ms="216" status="PASS">
->>>>>>> origin/main
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myPrj.LoginTest@4b29d1d2]" started-at="2024-03-23T14:03:15 NPT" name="tearDown" finished-at="2024-03-23T14:03:15 NPT" duration-ms="173" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==BROWSER SESSION END==]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-<<<<<<< HEAD
-      </class> <!-- myPrj.DashboardTest -->
-=======
       </class> <!-- myPrj.LoginTest -->
->>>>>>> origin/main
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

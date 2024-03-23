@@ -1,6 +1,5 @@
 package myPrj;
 
-<<<<<<< HEAD
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import pagerepo.DashboardPage;
@@ -39,10 +38,6 @@ public class DashboardTest extends BaseClass{
 			Reporter.log("==Greeting Text is verified!", true);
 		}
 	}
-=======
-public class DashboardTest {
-	
->>>>>>> origin/main
 	
 
 }

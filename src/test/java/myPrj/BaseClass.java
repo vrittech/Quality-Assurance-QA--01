@@ -1,12 +1,8 @@
 package myPrj;
 
-<<<<<<< HEAD
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-=======
-import java.util.Scanner;
->>>>>>> origin/main
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,20 +16,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	
-<<<<<<< HEAD
 	static WebDriver driver;
 	Properties prop;
-=======
-	WebDriver driver;
-	String baseUrl = "https://cloud-frontend-topaz.vercel.app";
-	Scanner sc;
->>>>>>> origin/main
 	
 	@BeforeMethod
 	public void setUp() {
 		
 		Reporter.log("====BROWSER SESSION STARTED====", true);
-<<<<<<< HEAD
 		
 		prop = new Properties();
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream("config.properties");
@@ -56,21 +45,6 @@ public class BaseClass {
 	switch(browserChoice) {
 	
 	case "chrome": 
-=======
-		sc = new Scanner(System.in);
-		System.out.println("Please select the Browser number of your choice\n");
-		System.out.println("Select browsers from below:\n"+
-							"1. Google Chrome \n"+
-							"2. Mozilla Firefox \n"+
-							"3. Microsoft Edge");
-		int browserChoice = sc.nextInt();
-		
-		//System.out.println("you have selected "+ browserChoice + "of your choice!");
-		
-	switch(browserChoice) {
-	
-	case 1: 
->>>>>>> origin/main
 			Reporter.log("===STARTING WITH CHROME BROWSER===", true);
 			WebDriverManager.chromedriver().setup();
 			driver= new ChromeDriver();
@@ -79,11 +53,7 @@ public class BaseClass {
 			driver.get(baseUrl);
 			break;
 			
-<<<<<<< HEAD
 	case "firefox": 
-=======
-	case 2: 
->>>>>>> origin/main
 			Reporter.log("===STARTING WITH FIREFOX BROWSER===", true);
 			WebDriverManager.firefoxdriver().setup();
 			driver= new FirefoxDriver();
@@ -93,11 +63,7 @@ public class BaseClass {
 			break;
 	
 	
-<<<<<<< HEAD
 	case "edge": 
-=======
-	case 3: 
->>>>>>> origin/main
 			Reporter.log("===STARTING WITH EDGE BROWSER===", true);
 			WebDriverManager.edgedriver().setup();
 			driver= new EdgeDriver();

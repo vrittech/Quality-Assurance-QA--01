@@ -1,12 +1,9 @@
 package pagerepo;
 
-<<<<<<< HEAD
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-=======
->>>>>>> origin/main
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,22 +11,12 @@ import org.openqa.selenium.WebElement;
 public class LoginPage {
 	
 	WebDriver driver;
-<<<<<<< HEAD
 	Properties prop;
-=======
->>>>>>> origin/main
 	
  
 	private By inputEmail = By.xpath("//input[@name='emailOrPhone']");
 	private By inputPassword = By.xpath("//input[@name='password']");
 	private By loginBtn = By.xpath("//button[text()=' Sign in']");
-<<<<<<< HEAD
-=======
-	
-	private String email = "namanthaiba@gmail.com";
-	private String password = "Test@123";
-	
->>>>>>> origin/main
 		
 	
 	  public LoginPage(WebDriver driver) {
@@ -54,7 +41,6 @@ public class LoginPage {
 	
 	public String email() {
 		
-<<<<<<< HEAD
 		
 		prop = new Properties();
 	    InputStream inputStream = getClass().getClassLoader().getResourceAsStream("secrets.properties");
@@ -72,14 +58,10 @@ public class LoginPage {
 
 	    String email = prop.getProperty("email");
 	    return email;
-=======
-		return email;
->>>>>>> origin/main
 	}
 	
 	public String password() {
 		
-<<<<<<< HEAD
 		
 		prop = new Properties();
 	    InputStream inputStream = getClass().getClassLoader().getResourceAsStream("secrets.properties");
@@ -106,12 +88,5 @@ public class LoginPage {
 		inputPassword().sendKeys(password());
 		loginBtn().click();
 	}
-=======
-		return password;
-	}
-	
-	
-	
->>>>>>> origin/main
 	
 }
