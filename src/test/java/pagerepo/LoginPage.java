@@ -17,7 +17,6 @@ public class LoginPage {
 	private By inputEmail = By.xpath("//input[@name='emailOrPhone']");
 	private By inputPassword = By.xpath("//input[@name='password']");
 	private By loginBtn = By.xpath("//button[text()=' Sign in']");
-	
 		
 	
 	  public LoginPage(WebDriver driver) {

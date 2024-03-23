@@ -41,8 +41,7 @@ public class BaseClass {
         String browserChoice = prop.getProperty("browser");
         String baseUrl = prop.getProperty("baseUrl");
 		
-		
-		
+				
 	switch(browserChoice) {
 	
 	case "chrome": 

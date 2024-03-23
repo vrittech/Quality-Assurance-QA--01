@@ -14,8 +14,7 @@ public class DashboardPage {
 	
 	public DashboardPage(WebDriver driver){
 		
-		this.driver = driver;
-		
+		this.driver = driver;		
 		
 	}
 	
