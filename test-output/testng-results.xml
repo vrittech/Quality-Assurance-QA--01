@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[====BROWSER SESSION STARTED====]]>
+    </line>
+    <line>
+      <![CDATA[===STARTING WITH EDGE BROWSER===]]>
+    </line>
+    <line>
+      <![CDATA[==Login Status Text shown and is Verified!]]>
+    </line>
+    <line>
+      <![CDATA[==BROWSER SESSION END==]]>
+    </line>
+    <line>
+      <![CDATA[====BROWSER SESSION STARTED====]]>
+    </line>
+    <line>
+      <![CDATA[===STARTING WITH EDGE BROWSER===]]>
+    </line>
+    <line>
+      <![CDATA[==Greeting Text is verified!]]>
+    </line>
+    <line>
+      <![CDATA[==BROWSER SESSION END==]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-23T13:41:46 NPT" name="Default suite" finished-at="2024-03-23T13:42:05 NPT" duration-ms="18996">
+    <groups>
+    </groups>
+    <test started-at="2024-03-23T13:41:46 NPT" name="Default test" finished-at="2024-03-23T13:42:05 NPT" duration-ms="18996">
+      <class name="myPrj.DashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:46 NPT" name="setUp" finished-at="2024-03-23T13:41:50 NPT" duration-ms="4360" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====BROWSER SESSION STARTED====]]>
+            </line>
+            <line>
+              <![CDATA[===STARTING WITH EDGE BROWSER===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginStatusText()[pri:20, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:50 NPT" name="verifyLoginStatusText" finished-at="2024-03-23T13:41:52 NPT" duration-ms="2191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==Login Status Text shown and is Verified!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginStatusText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:52 NPT" name="tearDown" finished-at="2024-03-23T13:41:59 NPT" duration-ms="6606" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==BROWSER SESSION END==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:41:59 NPT" name="setUp" finished-at="2024-03-23T13:42:02 NPT" duration-ms="3438" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====BROWSER SESSION STARTED====]]>
+            </line>
+            <line>
+              <![CDATA[===STARTING WITH EDGE BROWSER===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGreetingText()[pri:30, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:42:02 NPT" name="verifyGreetingText" finished-at="2024-03-23T13:42:05 NPT" duration-ms="2207" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==Greeting Text is verified!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGreetingText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myPrj.DashboardTest@68c9133c]" started-at="2024-03-23T13:42:05 NPT" name="tearDown" finished-at="2024-03-23T13:42:05 NPT" duration-ms="138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==BROWSER SESSION END==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- myPrj.DashboardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
